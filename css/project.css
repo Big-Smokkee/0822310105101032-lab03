@@ -78,3 +78,88 @@ body{
     cursor: pointer;
     box-shadow: 2px 2px 2px black;
 }
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .projects-section {
+        padding: 20px 50px;
+    }
+
+    .project-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-title {
+        font-size: 1.8em;
+    }
+
+    .project-subtitle {
+        font-size: 0.95em;
+    }
+
+    .project-description {
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-section {
+        padding: 20px 30px;
+    }
+
+    .project-container-parent {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project-card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .project-anchor-parent {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .project-anchor button {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    #myWorkId {
+        width: auto;
+        display: inline-block;
+    }
+
+    #recent-project-id {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-section {
+        padding: 15px 20px;
+    }
+
+    .project-title {
+        font-size: 1.5em;
+    }
+
+    .project-subtitle {
+        font-size: 0.9em;
+    }
+
+    .project-description {
+        font-size: 0.9em;
+    }
+
+    .project-anchor button {
+        font-size: 0.95em;
+    }
+
+    .project-container-banner h2 {
+        font-size: 1.4em;
+    }
+}
